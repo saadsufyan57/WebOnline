@@ -1,0 +1,289 @@
+@font-face{
+    src: url("Merriweather-Light.ttf");
+    font-family: "Merrilight";
+}
+@font-face{
+    src: url("Merriweather-Bold.ttf");
+    font-family: "Merribold";
+}
+@font-face{
+    src: url("Merriweather-Regular.ttf");
+    font-family: "Merriregular";
+}
+body{
+    margin: 0px;
+    
+}
+.top{
+    background-color: #316DC3;
+    line-height: 1em;
+    display: flex;
+}
+.iconbar{
+    margin: 10px 0px 0px 100px;
+
+}
+.icons{
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+*, ::after, ::before {
+    box-sizing:content-box !important;
+}
+.top-para{
+    color: white;
+    margin: 15px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+.buttons{
+    margin: 7px 100px 0px 0px;
+}
+
+button{
+    cursor: pointer;
+    padding: 7px;
+    color: #42794F;
+    font-size: 12px !important; 
+    border: 1px solid #42794F;
+    
+}
+.nav{
+    bottom: 530px;
+    position: absolute;
+    right: 200px;
+
+
+}
+.header{
+    background-color: #F7F8FA;
+    height: 80px;
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 70px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 15px !important;
+}
+li{
+    display: inline;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 30px;
+
+}
+a.active{
+    color: white !important;
+    background-color: #316DC3;
+
+}
+a.navlink{
+    color: #25272E;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 16px;
+
+
+}
+a.navlink:hover{
+    background-color: #316DC3;
+    color: white;
+    text-decoration: none;
+}
+
+.main-cont{
+
+    background-color: #f7f8fa !important;
+    text-align: center;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+
+    padding: 0px 10px 100px 10px;
+    width: 100%;
+}
+h2{
+    padding-top: 50px !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700 !important;
+}
+.title-icon{
+    padding-bottom: 20px;
+}
+.blue-cont{
+    background-color: #2755E9;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+.in{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 0 20px;
+    
+
+}
+.second-cont{
+    margin: 20px auto;
+    padding: 20px 40px;
+}
+.num{
+    color: white;
+    font-family: Merrilight;
+    font-weight: 600 !important;
+    font-size: 3rem !important;
+    letter-spacing: 2px;
+}
+h6{
+    color: white;
+    font-family: Merri;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+h5{
+    color: #316DC3;
+    font-family: Merriregular;
+    margin: 20px 0 10px;
+    font-weight: 700 !important;
+}
+.third-cont{
+    background-color: #f7f8fa !important;
+    width: 100%;
+    padding-bottom:50px ;
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+    display: inline-block !important;
+    float: justify;
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+    width: 250px;
+    background-color: white;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+.primary-cont{
+    text-align: center;
+}
+.mission{
+    font-family: Merribold;
+    color: #2755E9;
+    font-size: 24px;
+    font-weight: 700;
+}
+.fourth-cont{
+    padding:20px 50px;
+    margin: 50px;
+    display: flex;
+}
+.f-box1,.f-box2,.f-box3,.f-box4{
+    display: inline-block;
+    background-color: #f7f8fa;
+    width: 300px;
+    float: justify;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.16);;
+
+}
+.projects-heading{
+    display: inline-block;
+    font-size: 18px;
+    font-family: Merribold;
+    margin-left: 25px;
+
+}
+.fourthb{
+    margin-left: 50px !important;
+}
+.fourth-cont{
+    margin-bottom: 30px;
+}
+.fiftha{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 130px;
+}
+.hoverimg:hover{
+    width: 280px;
+}
+.hoverimg{
+    transition: 1s;
+}
+.fifth-cont{
+    margin-bottom: 80px;
+}
+.sixth-cont{
+    background-color: #25272E;
+    padding: 60px 20px;
+    /* float: right; */
+    width: 100%;
+    display: flex;
+
+}
+.info{
+    list-style: none;
+    color: #B3B3B4;
+    display: block !important;
+    line-height: 1.5em;
+}
+.last-heading{
+    font-family: Merriregular !important;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 440px;
+}
+li{
+    display: block;
+}
+.last-para{
+    color: #B3B3B4;
+    margin-left: 40px;
+
+}
+.sixtha{
+    margin-left:20px;
+    /* width: 50%; */
+    
+}
+.sixthb{
+    /* width: 50%; */
+    display: flex;
+    margin-left: 260px;
+}
+.last-heading2{
+    font-family: Merriregular !important;
+    font-size: 18px;
+    text-align: center;
+    /* margin-left: 440px; */
+}
+.last-icons{
+    list-style: none;
+    align-items: unset !important;
+    margin-top: 14px !important;
+    padding: 5px !important;
+    position: relative;
+    right: 70px;
+}
+.footer-bottom{
+    background-color: #316DC3;
+}
+.last-line{
+    font-family: Merriregular;
+    font-size: 12px!important;
+    padding: 20px;
+    padding-left: 80px;
+    margin: 0!important;
+}
